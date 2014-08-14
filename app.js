@@ -17,7 +17,7 @@ app.set('view engine', 'jade');
 app.set('views', __dirname + '/views'); //optional since express defaults to CWD/views
 
 
-app.use(express.static(path.join(__dirname, 'client/bower_components')));
+app.use(express.static(path.join(__dirname, '/lib')));
 
 // render index page
 app.get('/', function(req, res){
