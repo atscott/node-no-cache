@@ -77,7 +77,7 @@ module.exports = function (grunt) {
     // A test task.  Uncomment to use if you have tests
     // grunt.registerTask('test', ['jshint', 'qunit']);
 
-    grunt.registerTask('default', ['bower:install']);
-//    grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+//    grunt.registerTask('default', ['bower:install']);
+    grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
 
 };
